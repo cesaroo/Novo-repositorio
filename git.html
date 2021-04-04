@@ -4,11 +4,221 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cor02 css</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsam ad dolorem atque accusamus autem natus officia similique, doloremque veniam a asperiores magni sequi earum velit provident ab, quis iusto! <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam molestiae id accusantium voluptate, assumenda recusandae similique magni quidem veritatis nobis. Dolorem beatae nulla quos nihil dolore enim molestias? Optio, facilis!</p>
+    <main>
+    <h1> Introdução </h1>
+    <p style="color: #608d5e;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus autem quidem a obcaecati illo consequuntur optio rerum aliquid laudantium reprehenderit, amet odit. Sequi, officia adipisci iusto delectus mollitia modi repellat.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus autem quidem a obcaecati illo consequuntur optio rerum aliquid laudantium reprehenderit, amet odit. Sequi, officia adipisci iusto delectus mollitia modi repellat.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus autem quidem a obcaecati illo consequuntur optio rerum aliquid laudantium reprehenderit, amet odit. Sequi, officia adipisci iusto delectus mollitia modi repellat.</p> 
+<h2>insira seus dados : </h2>
+
+<form>
+    <label for="nome">Nome</label>
+    <input type="Digite seu nome" id="nome">
+    <label for="senha">Senha</label>
+    <input type="passaword" id="senha">
+    <button type="submit">enviar dados</button>
+    
+</form>
+
+<form action="Novo cliente" autocomplete="on">
+    <label for="Nome">Digite seu Nome</label>
+    <input type="text" id="Nome">
+    <label for="Senha">Digite sua senha</label>
+    <input type="passaword" id="Senha" >
+    <button type="submit">Enviando Dados</button>
+    <br>
+    <p>Selione seu Estado</p>
+
+     <select>
+        <option value="Aviao">Rio de janeiro</option>
+        <option value="Aviao">São Paulo</option>
+        <option value="Aviao">Acre</option>
+        <option value="Aviao">Pernambuco</option>
+        <option value="Aviao">Porto Alegre</option>
+        <option value="Aviao">Rio Grande do Norte</option>
+        <option value="Aviao">Bahia</option>
+        <option value="Aviao">Amazonas</option>
+        <option value="Aviao">Minas Gerais</option>
+        <option value="Aviao">Goias</option>
+        <option value="Aviao">Espirito Santo</option>
+    </select>
+
+     <button type="submit">Enviando Dados</button>
+</form>
+
+    <h2>Argumento</h2>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus autem quidem a obcaecati illo consequuntur optio rerum aliquid laudantium reprehenderit, amet odit. Sequi, officia adipisci iusto delectus mollitia modi repellat.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus autem quidem a obcaecati illo consequuntur optio rerum aliquid laudantium reprehenderit, amet odit. Sequi, officia adipisci iusto delectus mollitia modi repellat.</p>
+
+    <h3> listas ordenadas</h3>
+    <table>
+    <ol>
+        <li>maçã</li>
+        <li>laranja</li>
+        <li>pera</li>
+        <li>laranja</li>
+        
+    
+    </ol>
+    </table>
+
+    <h3>Listas desordenadas</h3>
+
+    <ul type="a">
+        
+        <li>futebol</li>
+        <li>hadbol</li>
+        <li>volei</li>
+        <li>futsal</li>
+        
+    </ul>
+    <li style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(119, 23, 60);">Antigo</li>
+    <ol type="a">
+        <li>casa</li>
+        <li>carro</li>
+        <li>arvore</li>
+        <li>Praia</li>
+        <li>Viajar</li>
+
+    </ol>
+    
+   <table>
+       <tr>
+        <td rowspan="1" class="primeira_borda"></td>
+        <th colspan="8">Segundo Semestre</th>
+       </tr>
+       
+       <tr>
+        <th scope="col"> Ambiente de Desenvolvimento e Operação</th>
+        <th scope="col">Engenharia de Software</th>
+        <th scope="col">Gestão de Projetos</th>
+        <th scope="col">Libras</th>
+        <th scope="col">Linguagem de Programação II</th>
+        <th scope="col">Linguagem SQL</th>
+        <th scope="col">Tecnologia Web</th>
+       </tr>
+       <tr>
+        <th scope="colgroup">AC1</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">AC2</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">AC3</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">AC4</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">AC5</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">AC6</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">Prova</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+    <tr>
+        <th scope="colgroup">Média</th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr> 
+    <tr>
+        <th scope="colgroup">Sub </th>
+        <td scope= "row">6</td>
+        <td scope= "row">9</td>
+        <td scope= "row">8</td>
+        <td scope= "row">9</td>
+        <td scope= "row">10</td>
+        <td scope= "row">10</td>
+        
+    </tr>
+   </table>
+    
+    
+    <h2>lista usando classes e ID</h2>
+
+    <div class="wrapper">
+
+        <div id="leftsidebar">
+
+            <ul>
+                <li class="menuitem">Leão</li>
+                <li class="menuitem">jacaré</li>
+                <li class="menuitem">Hipopotamo</li>
+                <li class="menuitem">Avestruz</li>
+                <li class="menuitem">Cavalo</li>
+            </ul>
+
+                
+
+                </div>
+
+        </div>
+
+    </div>
+    
+    
+    </main>
     
 </body>
 </html>
